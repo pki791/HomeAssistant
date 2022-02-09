@@ -1,0 +1,30 @@
+
+
+Pola z cenami i bieżącą taryfą
+
+input_number:
+  cena_energii_szczyt_poranny:
+    name: Cena energii szczyt przedpołudniowy za kWh
+    min: 0
+    max: 2
+    step: 0.01
+  cena_energii_szczyt_popoludniowy:
+    name: Cena energii szczyt popołudniowy za kWh
+    min: 0.4
+    max: 1.4
+    step: 0.001
+  cena_energii_poza_szczytem:
+    name: Cena enregii poza szczytem za kWh
+    min: 0.4
+    max: 1.4
+    step: 0.001
+  cena_energii_plaska:
+    name: Cena energii płaska za kWh
+    min: 0.4
+    max: 1.4
+    step: 0.001
+  taryfa_energii:
+    name: Bieżąca taryfa za energię elektryczną
+    min: 1
+    max: 3
+    step: 1
